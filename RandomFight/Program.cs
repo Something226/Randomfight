@@ -38,15 +38,22 @@ namespace RandomFight
 
 
             //If-statements that tells the user who won the fight
-            if (fighter1 <= 0)
+
+            if (fighter1 <= 0 && fighter2 <= 0)
+            {
+                System.Console.WriteLine("It's A Draw!");
+            }
+
+            else if (fighter1 <= 0)
             {
                 System.Console.WriteLine("Fighter 1 Lost! Fighter 2 Is The Winner!");
             }
 
-            if (fighter2 <= 0)
+            else if (fighter2 <= 0)
             {
                 System.Console.WriteLine("Fighter 2 Lost! Fighter 1 Is The Winner!");
             }
+
 
             //Writeline that tells the user to exit
             System.Console.WriteLine("Press ENTER To Exit");
