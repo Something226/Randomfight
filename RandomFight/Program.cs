@@ -35,8 +35,6 @@ namespace RandomFight
 
             }
 
-
-
             //If-statements that tells the user who won the fight
 
             if (fighter1 <= 0 && fighter2 <= 0)
